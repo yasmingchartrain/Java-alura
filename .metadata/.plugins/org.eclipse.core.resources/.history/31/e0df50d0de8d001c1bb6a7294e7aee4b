@@ -1,0 +1,9 @@
+
+public class TestaBancoSemCliente {
+	public static void main(String[] args) {
+		Conta ContaDaGi = new Conta();
+		System.out.println(contaDaGi.saldo);
+		
+	}
+
+}

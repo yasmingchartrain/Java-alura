@@ -1,0 +1,27 @@
+package testeNubank;
+//multiplos de 3 = fizz , multiplos de 5 = buzz, multiplos de 3 e 5 fizzbuzz
+public class testeDoTeste {
+	public static void main(String[] args) {
+		
+		int i = 1;
+		for(i = 1; 1 <= 100; i++) {
+		    
+		    if(i % 3 == 0){
+		       System.out.println("Fizz");    
+		    }
+		    if(i % 5 ==0) {
+		        System.out.println("Buzz");
+		    }
+		    if(i % 3 == 0 && i % 5 == 0){
+		        System.out.println("FizzBuzz");
+		    }
+		    if(i == 100) {
+		    	break;
+		    }
+		    else{
+		        System.out.println(i);
+		    }
+		}
+	}
+
+}

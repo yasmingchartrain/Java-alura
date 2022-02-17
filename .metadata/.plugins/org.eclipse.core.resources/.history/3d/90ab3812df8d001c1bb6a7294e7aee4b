@@ -1,0 +1,14 @@
+
+public class TestaBancoSemCliente {
+	public static void main(String[] args) {
+		Conta contaDaGi = new Conta();
+		System.out.println(contaDaGi.saldo);
+		
+		contaDaGi.titular = new Cliente();
+		System.out.println(contaDaGi.titular);
+		
+		contaDaGi.titular.nome = "Giovana";
+		System.out.println(contaDaGi.titular.nome);
+	}
+
+}

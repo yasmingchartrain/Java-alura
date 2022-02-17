@@ -1,0 +1,18 @@
+
+public class TesteSacaValoresNegativos {
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+		conta.deposita(100);
+		
+		
+		// agora essa linha não roda mais 
+		//System.out.println(conta.saldo);
+		
+		//proibido fazer dessa forma para que a conta fique negativa
+		//conta.saldo = conta.saldo - 101;
+		
+		System.out.println(conta.pegaSaldo());
+		
+	}
+
+}
