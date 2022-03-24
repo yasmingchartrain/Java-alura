@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="FuncionarioTeste"/>
+    <fullyQualifiedTypeName name="ControleBonificacao"/>
+    <fullyQualifiedTypeName name="EditorDeVideo"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="ContaCorrente"/>
+    <fullyQualifiedTypeName name="ContaPoupanca"/>
+    <fullyQualifiedTypeName name="SistemaInterno"/>
+    <fullyQualifiedTypeName name="Administrador"/>
+    <fullyQualifiedTypeName name="java.lang.Thread.State"/>
 </qualifiedTypeNameHistroy>
